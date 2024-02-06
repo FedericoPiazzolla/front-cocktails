@@ -1,13 +1,18 @@
 <script >
+import AppHeader from "./component/AppHeader.vue"
   export default {
+    
     data() {
       return {}
-    }
+    },
+    components:{AppHeader}
   }
 </script>
 
 <template>
-  <h1 class="text-danger">ciao</h1>
+
+  <AppHeader/>
+  <router-view></router-view>
 </template>
 
 <style lang="scss">

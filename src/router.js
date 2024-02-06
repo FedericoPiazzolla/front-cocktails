@@ -4,7 +4,7 @@ const router = createRouter({
 
   history: createWebHistory(),
 
-  routes: [ ];
+  routes: [ ]
 
 });
 
